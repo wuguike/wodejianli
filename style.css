@@ -1,0 +1,1270 @@
+*{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-family: 微软雅黑；
+}
+a{
+    text-decoration:none;
+    color:white;
+}
+
+/*导航栏*/
+.header{
+    width:100%;
+    height:62px;
+    background: rgb(17,72,110);
+}
+.navbar{
+    width:1200px;
+    height:62px;
+    margin: 0 auto;
+    text-align: center;
+}
+.logo{
+    display: inline-block;
+    float: left;
+    margin-top:10px;
+}
+.logo img{
+    width:200px;
+}
+
+.header ul li{
+    float: left;
+    width:90px;
+     height:40px;
+     text-align: center;
+     margin-top: 14px;
+}
+.header ul li a{
+    display:inline-block;
+    height:29px;
+    width:70px;
+    line-height: 30px;
+    border-radius: 5px;
+}
+.header ul li a:hover{
+    background: rgb(0,145,220)!important;
+}
+.navbar span{
+    display: inline-block;
+    width:110px;
+    height:30px;
+    float: left;
+    margin-left: 100px;
+    line-height: 30px;
+    margin-top: 14px;
+    background: rgb(0,145,220);
+    border-radius: 4px;
+}
+.h_blue{
+    width:100%;
+    height:40px;
+    background: rgb(173,223,255);
+    line-height: 40px;
+}
+.h_blue .hh{
+    width:1200px;
+    height:40px;
+    margin: 0 auto;
+    font-size: 12px;
+    color:rgb(17,72,110);
+
+}
+/*导航栏  end*/
+
+
+/*information*/
+
+.information{
+    width:100%;
+    height:500px;
+    background: rgb(229,229,229);
+    overflow: hidden;
+ 
+}
+.information .qq{
+    width:1200px;
+    height:500px;
+    margin: 0 auto;
+     margin-top: 20px;
+}
+
+/*information  left部分*/
+.new_left {
+    width:900px;
+    height:500px;
+    margin-right: 20px;
+    float: left;
+}
+.new_left ul li{
+    width:900px ;
+    background: rgb(255,255,255);
+}
+.earth span{
+    display: inline-block;
+    width:142px;
+    height:74px;
+    text-align: center;
+    font-size: 12px;
+}
+.earth span img{
+    margin-top: 14px;
+}
+.city{
+    background: rgb(241,241,241)!important;
+}
+.city div{
+    display: inline-block;
+    border:1px solid rgb(230,230,230);
+    background: rgb(255,255,255);
+    width:150px;
+    height:32px;
+    margin-top: 20px;
+    margin-left: 20px;
+    line-height: 32px;
+    text-align:center;
+}
+.city div span{
+    display: inline-block;
+    height: 32px;
+    width:108px;
+    border-right: 1px solid rgb(230,230,230);
+}
+.price div{
+    height: 40px;
+    text-align: left;
+    line-height: 40px;
+       position: relative;
+}
+.price div span{
+    display: inline-block;
+    width:66px;
+    height:25px;
+   line-height: 25px;
+   border-radius: 4px;
+   background: rgb( 242,242,242);
+   margin-right: 5px;
+   margin-left:5px;
+}
+.price div a{
+    display: inline-block;
+    width:55px;
+    height:25px;
+    line-height: 25px;
+    border-radius: 4px;
+    text-align: center;
+    background: rgb( 207,183,138);
+}
+.price div .left_png{
+    position: absolute;
+    top:5px;
+    left:140px;
+}
+.price div .right_png{
+    position: absolute;
+    top:5px;
+    right:2px;
+}
+
+.persons{
+    margin-top: 20px;
+}
+.persons .dd{
+    display: inline-block;
+    height:60px;
+    width:290px;
+    float: left;
+    background: url(images/ss.png) no-repeat 40px 10px ;
+    
+}
+
+.persons .dd div{
+    display: inline-block;
+    margin-left: 80px;
+    margin-top: 10px;
+}
+/*information  left部分结束*/
+
+/*information  right部分*/
+.new_right{
+    width:275px;
+    height: 460px;
+    float:left;
+    background: rgb( 249,249,249);
+
+}
+.new_right div{
+    width:275px;
+    height: 230px;
+    
+}
+.new_right div p{
+text-align: right;
+}
+.new_right div p span{
+display: inline-block;
+text-align: left;
+ width:230px;
+ height: 23px;
+color: rgb(46,200,227);
+ font-size: 18px!important;
+}
+.new_text li{
+    list-style: disc!important;
+    width:275px ;
+    height:19px;
+    overflow: hidden;
+    margin-top: 14px;
+    margin-left: 5px;
+}
+/*information  right部分*/
+
+/* information   end*/
+
+
+/*content*/
+.all_content{
+    width:100%;
+    height:2330px;
+    background: rgb(241,241,241);
+ 
+}
+ .all_content .all_con{
+     width:1200px;
+     height:2330px;
+     margin:0 auto;
+    overflow: hidden;
+ }
+ .youhui{
+     width:1200px;
+     height:480px;
+    overflow: hidden;
+ }
+ .all_left{
+      width:900px;
+     height:450px;
+     float: left;
+ }
+ .mainNewsList{
+display: inline-block;
+width:280px;
+height:450px;
+float: left;
+background: white;
+ }
+  .mainNewsList p{
+      text-align: right;
+      font-size: 10px;
+  }
+  .new_right div p{
+text-align: right;
+}
+  .mainNewsList p span{
+display: inline-block;
+text-align: left;
+ width:230px;
+    height: 23px;
+    font-size: 18px!important;
+}
+  .mainNewsList ul img{
+      width:280px;
+height:185px;
+  }
+   .mainNewsList ul li{
+
+    width:280px ;
+    height:24px;
+    margin-left: 5px;
+    margin-top: 5px;
+    overflow: hidden;
+       color: black;
+}
+.mainNewsList li a{
+      color: black;
+}
+  .mainNewsList ul a{
+      display: inline-block;
+     overflow: hidden;
+    width:270px ;
+    height:19px;
+    margin-left: 5px;
+    color: black;
+    margin-top: 5px;
+    border-bottom: 1px solid grey;
+}
+.all_right{
+    width:280px;
+    height: 300px;
+    float:left;
+    background: rgb( 249,249,249);
+    margin-left: 20px;
+}
+.all_right p{
+text-align: right;
+height:30px;
+line-height: 30px;
+}
+.all_right p span{
+display: inline-block;
+text-align: left;
+ width:230px;
+    height: 23px;
+    color: white;
+    font-size: 10px;
+}
+.ganxie h4{
+display:inline-block;
+ width:275px;
+height: 20px;
+overflow: hidden;
+color:rgb(249,100,78);
+}
+.ganxie span{
+ display:inline-block;
+ margin: 0px;
+ width:275px;
+height: 38px;
+overflow: hidden;
+color:rgb(249,100,78);   
+overflow: hidden;
+}
+.all_right  ul li{
+    width:275px ;
+    height:18px;
+    margin-left: 5px;
+    margin-top: 5px;
+    overflow: hidden;
+ color: black;
+}
+.new_lou{
+     width:900px;
+     height:380px;
+    overflow: hidden;
+  }
+    .new_lou .con_header{
+        margin-bottom: 20px;
+        float: left;
+    }
+  .new_lou .con_header a{
+      color: black;
+      font-size: 12px;
+      display: inline-block;
+      width:80px;
+      height:25px;
+      line-height: 25px;
+      text-align: center;
+     
+  }
+    .new_lou .con_header a:hover{
+        background: rgb(144,196,95);
+        color: white;
+        border-radius: 5px;
+    }
+     .new_lou .con_header .more{
+         margin-left: 290px;
+         display: inline-block;
+         color: white;
+         background: grey;
+         font-size: 12px;
+         width:60px;
+         height:20px;
+         line-height: 20px;
+     }
+     .new_lou ul li{
+       width:290px;
+      height:300px;
+        float: left;
+        background: white;
+     }
+     .new_lou ul li img{
+            width:290px;
+     }
+      .new_lou ul li span{
+          font-size: 14px;
+      }
+       .new_lou ul li div i{
+           width:95px;
+           height:30px;
+           line-height: 30px;
+           text-align: center;
+       }
+        .new_lou ul li div{
+             width:290px;
+           height:35px;
+           line-height: 30px;
+           margin-top: 27px;
+           background: rgb(245,245,245);
+        }
+     .new_lou ul li span strong{
+         color:rgb(255,122,34 );
+     }
+
+
+
+     .hot_lou{
+     width:900px;
+     height:380px;
+    overflow: hidden;
+  }
+ 
+     .hot_lou .con_header{
+        margin-bottom: 20px;
+        float: left;
+    }
+  .hot_lou .con_header a{
+      color: black;
+      font-size: 12px;
+      display: inline-block;
+      width:80px;
+      height:25px;
+      line-height: 25px;
+      text-align: center;
+     
+  }
+    .hot_lou .con_header a:hover{
+        background: rgb(144,196,95);
+        color: white;
+        border-radius: 5px;
+    }
+ 
+ .hot_lou ul li{
+       width:290px;
+      height:300px;
+        float: left;
+        background: white;
+     }
+     .hot_lou ul li img{
+            width:290px;
+     }
+      .hot_lou ul li span{
+          font-size: 14px;
+      }
+       .hot_lou ul li div i{
+           width:95px;
+           height:30px;
+           line-height: 30px;
+           text-align: center;
+       }
+        .hot_lou ul li div{
+             width:290px;
+           height:35px;
+           line-height: 30px;
+           margin-top: 27px;
+           background: rgb(245,245,245);
+        }
+     .hot_lou ul li span strong{
+         color:rgb(255,122,34 );
+     }
+  .hot_lou .con_header .more{
+         display: inline-block;
+         color: white;
+         background: grey;
+         font-size: 12px;
+         width:60px;
+         height:20px;
+         line-height: 20px;
+     }
+
+.lou_Pan{
+     width:900px;
+     height:260px;
+    overflow: hidden;
+}
+   .lou_Pan .con_header{
+        margin-bottom: 20px;
+        float: left;
+    }
+  .lou_Pan .con_header a{
+      color: black;
+      font-size: 12px;
+      display: inline-block;
+      width:80px;
+      height:25px;
+      line-height: 25px;
+      text-align: center;
+     
+  }
+   .lou_Pan .con_header a:hover{
+        background: rgb(144,196,95);
+        color: white;
+        border-radius: 5px;
+    }
+ 
+     .lou_Pan .con_header .more{
+         margin-left: 385px;
+         display: inline-block;
+         color: white;
+         background: grey;
+         font-size: 12px;
+         width:60px;
+         height:20px;
+         line-height: 20px;
+         text-align: center;
+     }
+     .lou_Pan  .tu_new{
+        float: left;
+         width:900px;
+         height:185px; 
+     }
+     .lou_Pan  .tu_new div{
+         float: left;
+         width:280px;
+         height:185px;
+         background: url(images/1/h.jpg) no-repeat;
+     }
+       .lou_Pan  .tu_new div span{
+      display: inline-block;
+      width:280px;
+      height:25px;
+      font-size: 12px;
+      text-align: center;
+      line-height: 25px;
+      margin-top: 160px;
+      color:white;
+      background: rgba(43,65,63,0.8);
+     }
+     .lou_Pan  .tu_new ul{
+         width:616px;
+         height:185px;
+         float: left;
+         background: white;
+         overflow:hidden;
+     }
+     .lou_Pan  .tu_new ul li{
+         width:616px;
+         height:37px;
+         margin-left:6px;
+         position: relative;
+     }
+      .lou_Pan  .tu_new ul li span{
+          display: inline-block;
+          width:80px;
+          height:34px;
+          text-align: right;
+          position: absolute;
+          top:1px;
+          right:20px;
+      }
+
+
+      .two_house{
+          width:1200px;
+          height:450px;
+          overflow: hidden;
+      }
+      .two_house .con_header{
+          float: left;
+      }
+      .two_house .con_header a{
+      font-size: 12px;
+      display: inline-block;
+      width:80px;
+      height:25px;
+      line-height: 25px;
+      text-align: center;
+      background: rgb(144,196,95);
+      }
+        .two_house .con_header .more{
+         margin-left: 250px;
+         display: inline-block;
+         color: white;
+         background: grey;
+         font-size: 12px;
+         width:60px;
+         height:20px;
+         line-height: 20px;
+         text-align: center;
+     }
+      .two_house ul{
+          width:600px;
+          height:420px;
+          float: left;
+          overflow: hidden;
+      }
+      .two_house ul li{
+          width:188px;
+          height:185px;
+          float: left;
+          background: white;
+          margin-top: 8px;
+          margin-left:8px;
+      }
+      .two_house ul li img{
+          width:188px;
+          height:128px;
+      }
+      .two_house ul li p{
+          margin-left:5px;
+          margin-top: 4px;
+      }
+
+      .math{
+       width:1200px;
+       height:370px;
+      }
+      .math ul{
+       width:387px;
+       height:320px;
+       float: left;
+       overflow: hidden;
+       background: white;
+      }
+         .math ul li{
+       width:387px;
+       height:30px;
+       line-height: 30px;
+       font-size: 14px;
+       position: relative;
+  
+      }
+      .math ul li span{
+            display: inline-block;
+          width:15px;
+          height: 15px;
+          line-height: 15px;
+            margin-left: 12px;
+            text-align: center;
+            border-radius: 3px;
+            background: rgb(220,220,220);
+      }
+         .math ul li a{
+            display: inline-block;
+          width:100px;
+          height: 15px;
+          line-height: 15px;
+            text-align: center;
+            color: black;
+            position: absolute;
+            top:7px;
+            right:5px;
+           
+      }
+      .math p span{
+          display: inline-block;
+           width:387px; 
+        float: left;
+        font-size: 22px;
+        font-weight: 600;
+      }
+/*content end*/
+
+/*footer*/
+.footer{
+    width:100% ;
+    height:220px;
+    background: rgb(226,226,226);
+    overflow: hidden;
+}
+.footer_f{
+    width:1200px;
+    height:220px;
+    margin: 0 auto;
+}
+.erwei{
+    width:590px;
+    height:135px;
+    float: left;
+}
+.erwei ul{
+    width:155px;
+    height:100px;
+    float: left;
+    margin-top: 18px;
+}
+.erwei .er{
+    width:100px;
+    height:100px;
+    float: left;
+    background: url(images/er.png) no-repeat;
+     margin-top: 10px;
+     margin-right: 10px;
+}
+.erwei ul li{
+    width:60px;
+    height:22px;
+    float: left;
+    line-height: 22px;
+    font-size: 12px;
+}
+.erwei ul .tt{
+    border-bottom:1px solid grey;
+    width:120px;
+    height:22px;
+    float: left;
+    font-size: 14px;
+}
+
+.erwei p{
+    margin-top: 13px;
+}
+.footer_tu{
+    width:1200px;
+    height:50px;
+    float: left;
+    text-align: center;
+    margin-top: 28px;
+}
+/*footer end*/
+
+
+
+
+/* lou.html */
+/*<!--content-->*/
+.lou_all_content{
+    width:100%;
+    height:3430px;
+    background: rgb(241,241,241)
+;}
+.lou_detail{
+    width:1200px;
+    height:3400px;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.lou_detail .lou_left{
+    width:900px;
+    height:3400px;
+    float: left;
+    margin-right: 14px;
+    overflow: hidden;
+}
+
+.lou_left ul .lou_persons{
+    height: 60px;
+    width:900px;
+    background: rgb(249,249,249);
+    overflow: hidden;
+}
+.lou_left ul .lou_persons .dd{
+    display: inline-block;
+    height:60px;
+    width:290px;
+    float: left;
+    background: url(images/ss.png) no-repeat 40px 10px ;
+  
+}
+
+.lou_left ul .lou_persons .dd div{
+    display: inline-block;
+    margin-left: 80px;
+    margin-top: 10px;
+}
+ .lou_left ul .lou_price{
+     width:900px;
+     height: 300px;
+     overflow: hidden;
+     background: white;
+ }
+ .lou_left ul .lou_price div{
+    height:50px;
+    text-align: left;
+    border-bottom: 1px dashed grey;
+}
+.lou_price div .first{
+   display: inline-block;
+    width: 150px;
+    height:50px;
+    line-height: 50px;
+}
+.lou_price div  p{
+    display: inline-block;
+    width: 728px;
+    height:50px;
+}
+.lou_price div span{
+    display: inline-block;
+    width:66px;
+    height:25px;
+   border-radius: 4px;
+   background: rgb( 242,242,242);
+   margin-right: 5px;
+   margin-left:5px;
+   font-size: 14px;
+   text-align: center;
+   line-height: 25px;
+}
+.lou_left ul .lou_price div a{
+    display: inline-block;
+    width:55px;
+    height:25px;
+    line-height: 25px;
+    border-radius: 4px;
+    text-align: center;
+    background: rgb( 207,183,138);
+}
+.lou_left .only span{
+    margin-right: 30px;
+}
+ .lou_left .only{
+     width:900px;
+     height:40px;
+     float: left;
+     margin-top:20px;
+     background: white;
+     line-height: 40px;
+      }
+
+.lou_left .lou_two{
+    width:900px;
+    height:225px;
+    float: left;
+    margin-top: 20px;
+    background: white;
+}
+
+.lou_two .tu_deta{
+    width:285px;
+    height:185px;
+    float: left;
+    margin-top:20px;
+    margin-left: 20px;
+}
+.lou_two .tu_deta img{
+      width:285px;
+    height:185px;
+}
+.lou_two .text_deta{
+    width:380px;
+    height:190px;
+    float: left;
+    margin-top:20px;
+    margin-left: 20px;
+}
+.lou_two .text_deta p{
+    display: inline-block;
+    width:380px;
+    height:30px;
+    float: left;
+    line-height: 30px;
+    font-size: 16px;
+}
+.lou_two .text_deta p a{
+    color:rgb(255,119,0);
+    font-size:18px;
+    font-weight: 600;
+}
+.lou_two .text_deta p a:hover{
+    text-decoration: underline;
+}
+.lou_two .lou_te p{
+     color:rgb(16,194,208);
+}
+.lou_two .lou_te p a{
+    color:rgb(255,119,0);
+    font-size: 20px;
+    font-weight: 600;
+}
+.lou_two .lou_te p a:hover{
+    text-decoration: underline;
+}
+.lou_two .lou_te{
+     display: inline-block;
+    width:180px;
+    height:190px;
+    float: left;
+    margin-top:20px;
+    text-align: right;
+}
+.lou_two .lou_te p{
+    display:inline-block;
+    width:180px;
+    height:45px;
+    line-height: 45px;
+}
+.lou_detail .lou_right{
+    width:280px;
+    height:640px;
+    float: left;
+    overflow: hidden;
+    background: rgb(255,255,255);
+}
+
+.lou_right .star h3{
+display: inline-block;
+width:280px;
+height: 38px;
+background: rgb( 144,196,95);
+color: white;
+line-height: 38px;
+}
+
+.lou_right .star ul li{
+      font-size: 14px;
+    width:280px;
+    height:25px;
+}
+.lou_right .star ul li span{
+    display: inline-block;
+    width:150px;
+    height:27px;
+    line-height: 27px;
+    margin-left: 5px;
+}
+.lou_right .star ul li a{
+    display: inline-block;
+    color: rgb( 181,137,83);
+    font-weight: 600;
+    width:80px;
+    height:27px;
+    line-height: 27px;
+    text-align: right;
+}
+.lou_right .look h3{
+display: inline-block;
+width:280px;
+height: 38px;
+background: rgb(249,249,249);
+color: rgb( 144,196,95);
+line-height: 38px;
+}
+
+.lou_right .look ul li{
+    font-size: 14px;
+    width:280px;
+    height:27px;
+}
+.lou_right .look ul li span{
+    display: inline-block;
+    width:150px;
+    height:27px;
+    line-height: 27px;
+    margin-left: 5px;
+}
+.lou_right .look ul li a{
+    display: inline-block;
+    color: rgb( 181,137,83);
+    font-weight: 600;
+    width:80px;
+    height:27px;
+    line-height: 27px;
+    text-align: right;
+}
+/*<!--content end- ->*/
+
+/* lou.html end*/
+
+
+
+
+/*xun.html */
+.xun_allcontent{
+    width:100%;
+    height:2140px;
+    background: rgb(241,241,241);
+}
+.xun_con{
+    width:1200px;
+    height:2120px;
+    margin: 0 auto;
+}
+.xun_con .xun_left{
+    width:900px;
+    height:2120px;
+    float: left;
+    margin-right: 16px;
+    margin-top: 20px;
+}
+.xun_left .toutou{
+    width:900px;
+    height:270px;
+    background: white;
+}
+.xun_left .toutou h2{
+    display: inline-block;
+    width:880px;
+    height:30px;
+    margin-top: 20px;
+    margin-left: 12px;
+    color: rgb(51,191,212);
+}
+.xun_left .toutou p{
+    display: inline-block;
+    border-bottom:1px solid grey;
+    width:880px;
+    height:50px;
+        margin-left: 12px;
+        font-size: 14px;
+        color: grey;
+        line-height: 20px;
+}
+.xun_left .toutou ul {
+margin-top: 20px;
+}
+.xun_left .toutou ul li{
+    width:870px;
+    height:25px;
+    position: relative;
+   color: rgb(51,191,212);
+   font-weight: 600;
+   font-size: 14px;
+   line-height: 25px;
+   margin-left: 12px;
+
+}
+.xun_left .toutou ul li span{
+    display: inline-block;
+    height:25px;
+    position: absolute;
+    right: 4px;
+    color: grey;
+}
+
+.xun_detail{
+    width:900px;
+    height:1840;
+}
+.xun_detail ul{
+    display: flex;
+    justify-content: space-between;
+}.xun_detail ul li{
+    width:285px;
+    height:370px;
+    overflow: hidden;
+    background: white;
+}
+.xun_detail ul li img{
+    width:285px;
+    height:185px;
+}
+.xun_detail .ppp{
+text-align: right;
+}
+.xun_detail ul li p{
+    text-align: left;
+    margin-left: 6px;
+    overflow: hidden;
+    display: inline-block;
+    line-height: 20px;
+}
+.xun_detail p span{
+display: inline-block;
+text-align: left;
+ width:855px;
+ height: 23px;
+color: rgb(116,185,54);
+ font-size: 20px!important;
+ font-weight: 600;
+}
+
+   .xun_detail p a{
+       display: inline-block;
+         color: white!important;
+         background: grey;
+         font-size: 12px;
+         width:42px;
+         height:20px;
+         line-height: 20px;
+         text-align: center;
+}    
+.xun_detail .were span{
+display: inline-block;
+text-align: left;
+ width:240px;
+ height: 23px;
+color: rgb(116,185,54);
+ font-size: 20px!important;
+ font-weight: 600;
+}
+
+   .xun_detail .were  a{
+       display: inline-block;
+         color: white!important;
+         background: grey;
+         font-size: 12px;
+         width:42px;
+         height:20px;
+         line-height: 20px;
+         text-align: center;
+}    
+.pop{
+    display: inline-block;
+    width:270px;
+    height: 20px;
+    overflow: hidden;
+}
+.xun_lastdetail li{
+    width:285px;
+    height:470px!important;
+    }
+.xun_lastdetail li div p{
+width:270px;
+height:18px;
+display: inline-block;
+overflow: hidden;
+margin-top: 6px;
+font-size: 14px;
+    }
+.xun_con .xun_right{
+    width:280px;
+    height:700px;
+    float: left;
+      margin-top: 20px;
+}
+
+.xun_right div{
+    width:275px;
+    height: 300px;
+    background: white;
+    
+}
+.xun_right div p{
+text-align: right;
+}
+.xun_right div p span{
+display: inline-block;
+text-align: left;
+ width:230px;
+ height: 23px;
+color: rgb(46,200,227);
+ font-size: 24px!important;
+ font-weight: 600;
+}
+.xun_right .new_text li{
+    list-style: disc!important;
+    width:275px ;
+    height:17px;
+    overflow: hidden;
+    margin-left: 5px;
+    margin-top:8px;
+       font-size: 14px;
+}
+
+    .xun_read{
+       width:275px;
+       height:350px;
+       float: left;
+       overflow: hidden;
+       background: white;
+       margin-top: 20px;
+      }
+         .xun_read li{
+       width:275px;
+       height:30px;
+       line-height: 30px;
+       font-size: 14px;
+       overflow: hidden;
+  
+      }
+      .xun_read li span{
+            display: inline-block;
+          width:15px;
+          height: 15px;
+          line-height: 15px;
+            margin-left: 12px;
+            text-align: center;
+            border-radius: 3px;
+            background: rgb(220,220,220);
+      }
+/*xun.html end*/
+
+
+
+/*product .html*/
+
+.product{
+    width:100%;
+    height:5270px;
+    background: rgb(241,241,241);
+}
+.product_detail{
+    width:1200px;
+        height:5270px;
+    margin: 0 auto;
+}
+.product_detail .pro_left{
+    width:900px;
+     height:5270px;
+    float: left;
+    margin-right: 30px;
+
+}
+.product_detail .pro_right{
+    width:260px;
+    height:500px;
+    float: left;
+    margin-top: 20px;
+}
+.pro_left .pro_tu{
+    width:840px;
+    height: 5000px;
+    margin: 0 auto;
+  
+}
+.pro_tu p{
+ text-indent: 28px;
+ font-size: 14px;
+ line-height: 25px;
+}
+.pro_tu ul li{
+    text-align: left;
+    position: relative;
+    height: 25px;
+    font-size: 14px;
+    line-height: 25px;
+    font-weight: 700;
+
+}
+.pro_tu ul li a{
+    color: black;
+    position:absolute;
+    right:10px;
+    }
+
+    .pro_lastde{
+    width:900px;
+    height:200px;
+    float: left;
+    margin-right: 16px;
+    margin-top:20px;
+    background: white;
+    }
+.pro_lastde p{
+     display: inline-block;
+     width:900px;
+    height:40px;
+    line-height: 40px;
+    position: relative;
+}
+.pro_lastde p input{
+    width:195px;
+    height: 30px;
+    border-radius: 5px;
+     position: absolute;
+      right:110px;
+      top:6px;
+}
+.pro_lastde p span{
+    display: inline-block;
+     width:100px;
+    height: 35px;
+    color: white;
+        border-radius: 3px;
+    background: rgb(24,201,232);
+       position: absolute;
+       right:10px;
+        top:6px;
+}
+.pro_right p{
+line-height: 25px;
+}
+.pro_right input{
+    width:210px;
+    height:38px;
+}
+
+.ohnd{
+    display: inline-block;
+    width:260px;
+    height: 40px;
+    background: rgb(255,154,14);
+    line-height: 40px !important;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}
+/*product .html end*/

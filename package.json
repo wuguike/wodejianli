@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.1.1"
+  },
+  "name": "wodejianli",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wuguike/wodejianli.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wuguike/wodejianli/issues"
+  },
+  "homepage": "https://github.com/wuguike/wodejianli#readme",
+  "description": ""
+}
